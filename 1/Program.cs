@@ -12,15 +12,16 @@ int b = int.Parse(Console.ReadLine());
 Console.Write("c: ");
 int c = int.Parse(Console.ReadLine());
 
-if (a > b && b > c) {
-    Console.WriteLine(a);
-} else if (a < b && b > c) {
-    Console.WriteLine(b);
-} 
-else if (a < c && c > b) {
-    Console.WriteLine(c);
-}
+// if (a > b && b > c) {
+//     Console.WriteLine(a);
+// } else if (a < b && b > c) {
+//     Console.WriteLine(b);
+// } 
+// else if (a < c && c > b) {
+//     Console.WriteLine(c);
+// }
 
+Console.WriteLine(Math.Max(Math.Max(a,b),c));
 
 
 
